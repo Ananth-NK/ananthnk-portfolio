@@ -15,7 +15,7 @@ const Loading = () => {
         ease: [0.25, 0.1, 0.25, 1.0],
       }}
     >
-      <img src={parthmittal} alt="Parth Mittal" className="w-[80px] h-[80px]" />
+      <img src={parthmittal} alt="Ananth NK" className="w-[80px] h-[80px]" />
     </motion.div>
   );
 };
