@@ -133,18 +133,8 @@ export const educationList = [
     icon: nitk,
     title: "National Institute of Technology Karnataka, Surathkal",
     degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
-  },
-  {
-    id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1:
-      "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    duration: "September 2025 - March 2029",
+    content1: "Information Technology",
   },
 ];
 
@@ -305,39 +295,9 @@ export const skills = [
         name: "Java",
       },
       {
-        id: "pl-3",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "pl-4",
-        icon: DiRuby,
-        name: "Ruby",
-      },
-      {
-        id: "pl-5",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "pl-6",
-        icon: SiTypescript,
-        name: "TypeScript",
-      },
-      {
         id: "pl-7",
         icon: SiCplusplus,
         name: "C++",
-      },
-      {
-        id: "pl-8",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-9",
-        icon: FaRust,
-        name: "Rust",
       },
       {
         id: "pl-10",
@@ -348,11 +308,6 @@ export const skills = [
         id: "pl-11",
         icon: AiFillHtml5,
         name: "HTML",
-      },
-      {
-        id: "pl-12",
-        icon: DiCss3,
-        name: "CSS",
       },
     ],
   },
@@ -1131,38 +1086,33 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/ananth-nk",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://www.github.com/Ananth-NK",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:work.parthmittal@gmail.com",
-  },
-  {
-    id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
+    link: "mailto:nkananthnkckh005@gmail.com",
   },
   {
     id: "social-media-5",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
+    link: "https://www.instagram.com/nk.ananth",
   },
 ];
 
 // Your professional summary
 export const aboutMe = {
   name: "Ananth NK",
-  githubUsername: "mittal-parth",
+  githubUsername: "Ananth-NK",
   tagLine:
-    "MTS @ Oracle | 12x Hackathon Winner 🏆 | ETHIndia'22,24 Winner | NITK'24 | PBA-5",
+    "NITK'29",
   intro:
-    "Software Developer from India who is either busy improving his craft or pondering over the next big idea.",
+    "Aiming Software Developer from India who is either busy improving his craft or pondering over the next big idea.",
 };
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
