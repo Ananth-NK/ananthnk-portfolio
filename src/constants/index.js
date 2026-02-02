@@ -1157,7 +1157,7 @@ export const socialMedia = [
 
 // Your professional summary
 export const aboutMe = {
-  name: "Parth Mittal",
+  name: "Ananth NK",
   githubUsername: "mittal-parth",
   tagLine:
     "MTS @ Oracle | 12x Hackathon Winner 🏆 | ETHIndia'22,24 Winner | NITK'24 | PBA-5",
