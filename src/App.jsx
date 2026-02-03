@@ -2,7 +2,7 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "./style";
 
-import { Hero, Loading } from "./components";
+import { Navbar, Education, Footer, Loading } from "./components";
 
 const App = () => {
   const [isLoading, setIsLoading] = React.useState(true);
@@ -25,11 +25,24 @@ const App = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
-            <div className={`bg-primary ${styles.flexStart} pt-[80px]`}>
+            {/* Navigation */}
+            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
               <div className={`${styles.boxWidth}`}>
-                <Hero />
+                <Navbar />
               </div>
             </div>
+
+            {/* Education section */}
+            <div
+              className={`bg-primary ${styles.flexCenter} ${styles.paddingX} pt-[80px]`}
+            >
+              <div className={`${styles.boxWidth}`}>
+                <Education />
+              </div>
+            </div>
+
+            {/* Contact Me (Footer section in this template) */}
+            <Footer />
           </motion.section>
         )}
       </AnimatePresence>
